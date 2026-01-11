@@ -16,7 +16,7 @@ int main()
 
     do
     {
-        printf("(%d) GUESS THE NUMBER (%d, %d): \n", answer, min, max);
+        printf("GUESS THE NUMBER (%d, %d): ", min, max);
         scanf("%d", &guess);
         tries++;
 
@@ -35,10 +35,10 @@ int main()
 
     } while (guess != answer);
 
-    printf("Correct answer is %d.", answer);
-    printf("You took %d tries.", guess);
+    printf("Correct answer is %d.\n", answer);
+    printf("You took %d tries.\n", tries);
 
     return 0;
 }
 
-// I know there's some important validations are missing in this program and could be improved more. 
+// I know there's some important validations are missing in this program and could be improved more.
