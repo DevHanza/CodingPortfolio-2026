@@ -16,3 +16,5 @@ gcc --version
 ```
 gcc main.c -o main; ./main
 ```
+
+###### "Some of the code in this folder does not exactly match the code shown in the tutorial, but I created it by understanding the content."
