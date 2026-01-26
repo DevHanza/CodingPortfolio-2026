@@ -1,0 +1,4 @@
+Hello, World!
+This is written using fprintf().
+This line is written using fputs().
+File handling in C is simple.
