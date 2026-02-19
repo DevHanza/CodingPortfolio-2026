@@ -51,5 +51,5 @@ var reverseString = function (s) {
   return s;
 };
 
-let s = ["H", "e", "l", "l", "o"];
-console.log(reverseString(s));
+// let s = ["H", "e", "l", "l", "o"];
+// console.log(reverseString(s));
