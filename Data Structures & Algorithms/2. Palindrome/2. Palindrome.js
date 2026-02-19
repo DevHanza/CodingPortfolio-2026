@@ -1,10 +1,18 @@
-// Method 1
+//
+// ::::::::::::::::::::::
+// :: Method 1
+// ::::::::::::::::::::::
+//
 
 function isPalindrome(s) {
   return s === s.split("").reverse().join("");
 }
 
-// Method 2
+//
+// ::::::::::::::::::::::
+// :: Method 2
+// ::::::::::::::::::::::
+//
 
 function isPalindrome(s) {
   let reversedString = "";
