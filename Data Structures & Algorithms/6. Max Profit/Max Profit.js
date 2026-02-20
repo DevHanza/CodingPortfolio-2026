@@ -3,11 +3,13 @@
 // ::::::::::::::::::::::
 
 function maxProfit(prices) {
-  let minPrice = prices[0];
+  let minPrice = prices[0]; // Assueme the first day is the cheapest to buy
   let maxProfit = 0;
 
   for (let i = 1; i < prices.length; i++) {
     const currentPrice = prices[i];
+
+    // Update minimum price if the lower price is found
     minPrice = Math.min(minPrice, currentPrice);
 
     const potentialProfit = currentPrice - minPrice;
