@@ -1,4 +1,4 @@
-import printTree from "./print-tree.js";
+import printTree from "./../print-tree.js";
 
 class Node {
   constructor(value) {
