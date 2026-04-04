@@ -1,0 +1,22 @@
+function selectionSort(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    //
+    let minIndex = i;
+
+    for (let j = i + 1; j < arr.length; j++) {
+      //
+      if (arr[j] < arr[minIndex]) {
+        minIndex = j;
+      }
+      //
+    }
+
+    [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+    //
+  }
+  return arr;
+}
+
+console.log(selectionSort([6, 5, 4, 3, 2, 1]));
+console.log(selectionSort([5, 3, 8, 1]));
+console.log(selectionSort([7, 5, 3, 9, 2, 1]));
