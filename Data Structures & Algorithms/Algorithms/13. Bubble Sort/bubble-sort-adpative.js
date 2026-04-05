@@ -1,7 +1,7 @@
 function bubbleSort(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     // track if anything changed
-    let flag = 0;
+    let flag = false;
 
     //
     for (let j = 0; j < arr.length - 1 - i; j++) {
